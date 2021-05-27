@@ -1,0 +1,98 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+/* Top Bar */
+.top-bar{
+    background-color: #57589b;
+    padding: .4rem 0;
+    color:#00000000;
+}
+.container-top{
+    display: inline;
+}
+.top-bar:hover{
+    color: rgba(0, 0, 0, 0);
+}
+/* Nav Bar */
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.navbar-img{
+    width: 8rem;
+}
+/* After Crousel */
+hr{
+    border-top: 1px solid black;
+    
+}
+/* Three-Column-Container */
+.column-3-heading{
+    text-align: center;
+    padding: 3rem;
+}
+.columns-3{
+  padding: 0 1rem;
+}
+.container{
+    display: flex;
+}
+.column-img-heading{
+    padding-top: 1rem;
+}
+
+/* Fixed Background Column */
+
+.matrix{
+    background-image: url(img/matrix.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 6.9rem;
+    height: 400px;
+}
+.matrix-text{
+    text-align: center;
+    color: white;
+}
+.subtext{
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+}
+.fixed-background{
+    padding: 10rem 0;
+}
+
+/* Two Column Section */
+.two-column{
+    padding: 5rem 0;
+}
+.two-column-img{
+    padding-left: 3rem;
+    width: 100%;
+}
+.two-column-text{
+    padding-top: 7.5rem;
+}
+/* Jumbotron */
+.jumbotron-text{
+    padding-right: 15rem;
+}
+/* Footer */
+footer{
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.555);
+}
+.footer-text{
+    width: 40%;
+    text-align: center;
+
+    
+
